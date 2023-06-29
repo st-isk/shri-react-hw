@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.header {
+    background-color: #333333;
+    color: white;
+    font-size: 32px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header div {
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+.header svg {
+    fill: white;
+    background-color: #333333;
+    cursor: pointer;
+}

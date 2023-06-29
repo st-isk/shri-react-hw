@@ -1,10 +1,16 @@
-import styles from "@/header.module.css";
+"use client";
+
+import styles from "@/components-styles/header.module.css";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
+    const router = useRouter();
+
     return (
         <header className={styles.header}>
-            <div>Билетопоиск</div>
+            <div onClick={() => router.push("/")}>Билетопоиск</div>
             <svg
+                onClick={() => router.push("/cart")}
                 width="28"
                 height="25"
                 viewBox="0 0 28 25"

@@ -1,23 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-.header {
+.footer {
     background-color: #333333;
-    color: white;
-    font-size: 32px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 0 32px;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
     font-family: "Roboto", sans-serif;
 }
 
-.header div {
+.footer div {
     background-color: #333333;
     color: white;
-}
-
-.header svg {
-    fill: white;
-    background-color: #333333;
+    cursor: pointer;
 }

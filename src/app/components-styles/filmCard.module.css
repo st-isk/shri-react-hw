@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+
+.filmCard {
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    width: 90rem;
+    border-radius: 5%;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.poster {
+    border-radius: 7px;
+}
+
+.signs {
+    background-color: white;
+}
+
+.signsGenre {
+    background-color: white;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
